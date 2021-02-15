@@ -1,8 +1,18 @@
 # CSS841-GO-Enrichment
+## Description
+Find GO enrichment in MAPPER graphs.
 
-#What we will need according to tanghaibao to perform an original ids-to-GOs analysis:
-#1: A list of all the genes in one column;
-#2: A list of all the genes in the genome of interest in one column;
-#3: A data frame with gene names in the first column and GO terms in the second column that are separated by semicolons.
+The notebooks folder contains the following:
+1. Preprocessing.ipynb: For turning the MAPPER graphs and orthogroups into the files needed by the find_enrichment.py script from GOATOOLS 
+2. Visualization.ipynb: For visualizing the data after running find_enrichment.py on all the nodes 
 
-#The find_enrichment.py Python script will run the data for us.
+## Requirements 
+Python requirements:  
+    1. pandas  
+    2. numpy  
+    3. matplotlib  
+    4. networkx  
+    5. pyvis  
+
+Other requirements:  
+[GOATOOLS](https://github.com/tanghaibao/goatools)  
